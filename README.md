@@ -5,6 +5,21 @@
 - Express js (framework)
 - Mongo db (Nosql database)
 
+## Architecture : 
+controllers : application layer which is interacting with the client for request and response
+
+models : models contains the database collections
+
+services : This is a layer where all the business logic exists and it sits between controllers and infrastructure (database, third party apis)
+
+Utils : This folder consists of any helpers required for validations or any common logic
+
+routes : routes of apis
+
+server.js : Entry point of project
+
+test : contains test cases
+
 ## Prerequisites
 - node version 14.17.3
 - mocha (for test cases)
