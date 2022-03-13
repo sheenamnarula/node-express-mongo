@@ -36,7 +36,7 @@ npm run test
 
 ### Sample api (hosted) : 
 
-url : 
+url : (replace your localhost url)
 ```
 https://test.sheenamnarula93.com/api/records
 ```
